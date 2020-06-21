@@ -1,0 +1,5 @@
+name: Daybreak
+main: com.okamos.Daybreak.Daybreak
+version: 1.0.0-SNAPSHOT
+author: Shinichi Okamoto (@okamos)
+api-version: 1.14

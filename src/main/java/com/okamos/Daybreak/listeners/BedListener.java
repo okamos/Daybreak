@@ -38,6 +38,9 @@ public class BedListener implements Listener {
           if (world.hasStorm()) {
             world.setStorm(false);
           }
+          if (world.isThundering()) {
+            world.setThundering(false);
+          }
         }
       }
     }, 10 * 20L, 10 * 20L);

@@ -35,6 +35,9 @@ public class BedListener implements Listener {
         // is night?
         if (world.getTime() > 12950 || world.getTime() < 23950) {
           world.setTime(0);
+          if (world.hasStorm()) {
+            world.setStorm(false);
+          }
         }
       }
     }, 10 * 20L, 10 * 20L);
